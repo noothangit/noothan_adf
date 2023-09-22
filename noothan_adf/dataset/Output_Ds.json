@@ -5,11 +5,17 @@
 			"referenceName": "Output_Ls",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"Filename": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation"
+				"type": "AzureBlobStorageLocation",
+				"container": "outputcontainer"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
