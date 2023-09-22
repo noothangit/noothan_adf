@@ -1,0 +1,9 @@
+{
+	"name": "noothanAdf",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7443acce-3fd8-4e90-b417-2cf112c44281",
+		"tenantId": "3914aff8-73b9-40b8-b773-5d10cae0d904"
+	}
+}
