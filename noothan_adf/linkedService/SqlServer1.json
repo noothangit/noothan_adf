@@ -1,0 +1,22 @@
+{
+	"name": "SqlServer1",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Data Source=DESKTOP-7LO3K15\\SQLEXPRESS;Initial Catalog=noothan_prem_db;User ID=noothandb",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "dbpassword"
+			}
+		},
+		"connectVia": {
+			"referenceName": "sqlserver",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
