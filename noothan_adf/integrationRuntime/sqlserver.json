@@ -1,0 +1,6 @@
+{
+	"name": "sqlserver",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
